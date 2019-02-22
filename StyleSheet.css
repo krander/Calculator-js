@@ -1,0 +1,39 @@
+html {
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 0.75em;
+}
+
+#result {
+    width: 310px;
+    text-align: right;
+    font-size: 3em;
+    border: solid;
+    border-width: 0.02px;
+    border-color: #BDBDBD;
+    padding-right: 0.25em;
+    margin-bottom: 0.3em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: 75px 75px 75px 75px 75px 75px;
+    grid-column-gap: 0.5em;
+}
+
+button {
+    height: 85%;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.btnMath {
+    background-color: #BDBDBD;
+}
+
+.btnSum {
+    background-color: #1E88E5;
+}
