@@ -2,10 +2,13 @@ html {
     font-family: Arial;
 }
 
+/* title style*/
 h1 {
-    font-size: 0.75em;
+    font-size: 0.85em;
+    font-weight: 400;
 }
 
+/* result bar */
 #result {
     width: 310px;
     text-align: right;
@@ -17,6 +20,7 @@ h1 {
     margin-bottom: 0.3em;
 }
 
+/* button setup */
 .grid-container {
     display: grid;
     grid-template-columns: 75px 75px 75px 75px;
@@ -24,16 +28,39 @@ h1 {
     grid-column-gap: 0.5em;
 }
 
+/* buttons and behavior */
 button {
     height: 85%;
     width: 100%;
     font-size: 1.5em;
+    border: solid;
+    border-width: 1px;
+    border-color: #BDBDBD;
 }
+
+    button:active {
+        border-color: #1E88E5;
+    }
+
 
 .btnMath {
     background-color: #BDBDBD;
+    border-color: #9E9E9E;
 }
 
 .btnSum {
     background-color: #1E88E5;
+    border-color: #1976D2;
+}
+
+#MS {
+    cursor: not-allowed;
+}
+
+#MR {
+    cursor: not-allowed;
+}
+
+#decimal {
+    cursor: not-allowed;
 }
